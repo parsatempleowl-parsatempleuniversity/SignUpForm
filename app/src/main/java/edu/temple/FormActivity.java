@@ -54,7 +54,7 @@ public class FormActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Please enter the same password for Password and Password Confirmation", Toast.LENGTH_LONG).show();
                 }
                 else {
-                    Toast.makeText(getApplicationContext(), "Welcome, " + name + ", to the SignUpFormApp", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Welcome, " + name + ", to the SignUpForm App", Toast.LENGTH_LONG).show();
                 }
             }
         });
