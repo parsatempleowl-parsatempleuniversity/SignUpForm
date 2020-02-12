@@ -32,16 +32,16 @@ public class FormActivity extends AppCompatActivity {
                 String password = Password.getText().toString();
                 String passowrdConfirmation = PasswordConfirmation.getText().toString();
 
-                if(Name.getText() == null) {
+                if(name.equals("")) {
                     Toast.makeText(getApplicationContext(), "Please enter name", Toast.LENGTH_LONG).show();
                 }
-                else if(Email.getText() == null) {
+                else if(email.equals("")) {
                     Toast.makeText(getApplicationContext(), "Please enter email", Toast.LENGTH_LONG).show();
                 }
-                else if(Password.getText() == null) {
+                else if(password.equals("")) {
                     Toast.makeText(getApplicationContext(), "Please enter password", Toast.LENGTH_LONG).show();
                 }
-                else if(PasswordConfirmation.getText() == null) {
+                else if(passowrdConfirmation.equals("")) {
                     Toast.makeText(getApplicationContext(), "Please enter password again", Toast.LENGTH_LONG).show();
                 }
                 else if(!password.equals(passowrdConfirmation)) {
